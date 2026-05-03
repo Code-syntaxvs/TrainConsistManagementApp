@@ -16,7 +16,7 @@ public class TrainConsistSearchApp {
 
     public static void main(String[] args) {
 
-        // Sample bogie ID list
+   
         String[] bogies = {"BG101","BG205","BG309","BG412","BG550"};
 
         // Test Case 1: Bogie Found
@@ -27,7 +27,7 @@ public class TrainConsistSearchApp {
         String search2 = "BG999";
         System.out.println("Searching " + search2 + ": " + linearSearch(bogies, search2));
 
-        // Test Case 3: First Element Match
+       
         String search3 = "BG101";
         System.out.println("Searching " + search3 + ": " + linearSearch(bogies, search3));
 
